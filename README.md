@@ -1,7 +1,5 @@
 #Fast nixar
-####Let's go seriously
 
-.
 .
 .
 
