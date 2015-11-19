@@ -1,0 +1,8 @@
+base=$(pwd)
+source="$base/commands"
+compiled="$base/compiled-commands"
+cd $source
+fs "*.ml" | map "ocamlbuild *" | before "." | map "*.native" | bash
+fs "*.native" | before "." | map "mv * $compiled" | bash
+fs "*.native" | map "rm *" | bash
+cd $base
