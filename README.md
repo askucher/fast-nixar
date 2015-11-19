@@ -8,19 +8,19 @@
 
 Project is going to be started!
 
-
-
-
-
-
-Install development environment
-
+>
+>
+>Install development environment
+>
+>
 ```sh
 sh install
 ```
-
-Compile commands in order to checkout them
-
+>
+>
+>Compile commands in order to checkout them
+>
+>
 ```sh
 sh compile
 ```
